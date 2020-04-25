@@ -1,6 +1,10 @@
-ok123
+//ลองทดสอบ
 
+void setup(){
 
+pinmod(2,0);
+
+}
 
 void loop(){
 
