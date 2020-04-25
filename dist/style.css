@@ -1,0 +1,152 @@
+/*
+ *  Remodal - v1.0.3
+ *  Responsive, lightweight, fast, synchronized with CSS animations, fully customizable modal window plugin with declarative configuration and hash tracking.
+ *  https://vodkabears.github.io/remodal/
+ *
+ *  Made by Ilya Makarov
+ *  Under MIT License
+ */
+
+/* ==========================================================================
+   Remodal's necessary styles
+   ========================================================================== */
+
+/* Hide scroll bar */
+button, .button {
+  
+  float: none;
+  border-width: 0;
+  cursor: pointer;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  line-height: normal;
+  /*margin: 0 0 1.25rem;*/
+  margin-top: -3px;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  -webkit-appearance: none;
+  display: inline-block;
+  padding: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  /*background-color: #008CBA;*/
+  /*border-color: #007095;*/
+  /*color: #FFFFFF;*/
+  transition: background-color 300ms ease-out;
+  border-radius: 0.5em;
+}
+
+
+.button.c, .button.c {
+  background-color: #5b5ea6;
+  border-color: #191fd3;
+  color: #fff !important;
+}
+
+.button.react, .button.react{
+  background-color: #282c34;
+  color: #61dafb !important;
+}
+
+.button.cli, .button.cli {
+  background-color: #000;
+  color: #fff !important;
+}
+
+.button.css, .button.css {
+  background-color: #bc70a4;
+  color: #fff;
+}
+
+.button.lab, .button.lab {
+  background-color: #95dee3;
+  color: #000 !important;
+}
+
+.button.devtools, .button.devtools {
+  background-color: #ce3175;
+  color: #fff !important;
+}
+
+.button.vue, .button.vue {
+  background-color: #00a591;
+  color: #fff !important;
+}
+
+.button.express, .button.express {
+  background-color: #b565a7;
+  color: #ad2828 !important;
+}
+
+.button.git, .button.git {
+  background-color: #dd4132;
+  color: #61dafb !important;
+}
+
+.button.go, .button.go {
+  background-color: #bfd641;
+  color: #000 !important;
+}
+
+.button.graphql, .button.graphql {
+  background-color: white !important;
+  border: 1px solid gray;
+  color: #E10098 !important;
+}
+
+.button.html, .button.softskills {
+  background-color: #f2552c;
+}
+
+.button.js, .button.js {
+  background-color: #ecdb54;
+  color: #000 !important;
+}
+
+.button.lab, .button .lab {
+  background-color: #95dee3;
+  color: #000 !important;
+}
+
+.button.network, .button .network {
+  background-color: #6b5b95;
+  color: #000000 !important;
+}
+
+.button.node, .button.node {
+  background-color: #000;
+  color: #51e616 !important;
+}
+
+.button.services, .button.services {
+  background-color: #f7786b;
+}
+
+.button .svelte, .button.svelte {
+  background-color: #ff3e00;
+  color: #fff !important;
+}
+
+.button.vue, .button.vue {
+  background-color: #00a591;
+  color: #030503 !important;
+}
+
+.button.browser, .button.browser {
+  background-color: #5b5ea6;
+  color: #fff !important;
+}
+
+.button.react, .button.react {
+  background-color: #3abb90;
+  color: #fff !important;
+}
+
+.button.html, .button.html {
+  background-color: #cf2a6a;
+  color: #fff !important;
+}
+
+
+
+
