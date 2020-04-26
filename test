@@ -1,13 +1,26 @@
-//ลองทดสอบ
-
-void setup(){
-
-pinmod(2,0);
+int x_time = 0;
+bool _x_time = false;
+BLYNK_WRITE(V1)
+{
+    int pinValue = param.asInt();     
+if ( pinValue == 1){
+     x_time = 0;
+    _x_time = true;
+pump = HIGH; //สั่ง เปิด ปั๊ม
+}else{
+      _x_time = false;
+}
 
 }
 
-void loop(){
+void countCharger(){
 
-delay();
+if(_x_time == true){ // ถ้ามีการกดปุ่มปั๊ม 1 ครั้ง 
+ x_time++; // นับไปครั้งละ 1 วิ แต่ยังจะไม่เข้า loop 5 วิ เพราะยังนับไม่ถึง
+  if (x_time > 5) { //นับไปจนกว่า x_time มากกว่า 5
+Serial.println(String("x_time > 5 ==> "));
+_x_time = false;
+}
+}
 
 }
