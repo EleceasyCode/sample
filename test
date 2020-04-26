@@ -13,14 +13,4 @@ pump = HIGH; //สั่ง เปิด ปั๊ม
 
 }
 
-void countCharger(){
 
-if(_x_time == true){ // ถ้ามีการกดปุ่มปั๊ม 1 ครั้ง 
- x_time++; // นับไปครั้งละ 1 วิ แต่ยังจะไม่เข้า loop 5 วิ เพราะยังนับไม่ถึง
-  if (x_time > 5) { //นับไปจนกว่า x_time มากกว่า 5
-Serial.println(String("x_time > 5 ==> "));
-_x_time = false;
-}
-}
-
-}
